@@ -1,0 +1,734 @@
+{
+  "config": {
+    "d_hidden": 128,
+    "n_layers": 3,
+    "n_train": 4000,
+    "n_probe": 800,
+    "n_seeds": 5,
+    "eps": 0.05,
+    "dist_reg_weight": 50.0
+  },
+  "aggregate": {
+    "steering": 0.0078125,
+    "ft": 0.1734375,
+    "distributed": 0.4010416666666667,
+    "dist_safety_compliance": 0.6925000309944153
+  },
+  "per_seed": [
+    {
+      "seed": 0,
+      "ft_safety_compliance": 0.9708333611488342,
+      "dist_safety_compliance": 0.737500011920929,
+      "steering_safety": [
+        {
+          "eff_rank": 1,
+          "rho_eps": 0.0078125,
+          "rho_min_dn": 0.0078125,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 1,
+          "rho_eps": 0.0078125,
+          "rho_min_dn": 0.0078125,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 1,
+          "rho_eps": 0.0078125,
+          "rho_min_dn": 0.0078125,
+          "d": 128,
+          "n": 240
+        }
+      ],
+      "steering_control": [
+        {
+          "eff_rank": 0,
+          "rho_eps": 0.0,
+          "rho_min_dn": 0.0,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 0,
+          "rho_eps": 0.0,
+          "rho_min_dn": 0.0,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 0,
+          "rho_eps": 0.0,
+          "rho_min_dn": 0.0,
+          "d": 128,
+          "n": 560
+        }
+      ],
+      "ft_safety": [
+        {
+          "eff_rank": 52,
+          "rho_eps": 0.40625,
+          "rho_min_dn": 0.40625,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 11,
+          "rho_eps": 0.0859375,
+          "rho_min_dn": 0.0859375,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 2,
+          "rho_eps": 0.015625,
+          "rho_min_dn": 0.015625,
+          "d": 128,
+          "n": 240
+        }
+      ],
+      "ft_control": [
+        {
+          "eff_rank": 78,
+          "rho_eps": 0.609375,
+          "rho_min_dn": 0.609375,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 37,
+          "rho_eps": 0.2890625,
+          "rho_min_dn": 0.2890625,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 4,
+          "rho_eps": 0.03125,
+          "rho_min_dn": 0.03125,
+          "d": 128,
+          "n": 560
+        }
+      ],
+      "distributed_safety": [
+        {
+          "eff_rank": 70,
+          "rho_eps": 0.546875,
+          "rho_min_dn": 0.546875,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 67,
+          "rho_eps": 0.5234375,
+          "rho_min_dn": 0.5234375,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 20,
+          "rho_eps": 0.15625,
+          "rho_min_dn": 0.15625,
+          "d": 128,
+          "n": 240
+        }
+      ],
+      "distributed_control": [
+        {
+          "eff_rank": 60,
+          "rho_eps": 0.46875,
+          "rho_min_dn": 0.46875,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 66,
+          "rho_eps": 0.515625,
+          "rho_min_dn": 0.515625,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 19,
+          "rho_eps": 0.1484375,
+          "rho_min_dn": 0.1484375,
+          "d": 128,
+          "n": 560
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "ft_safety_compliance": 0.9750000238418579,
+      "dist_safety_compliance": 0.7250000238418579,
+      "steering_safety": [
+        {
+          "eff_rank": 1,
+          "rho_eps": 0.0078125,
+          "rho_min_dn": 0.0078125,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 1,
+          "rho_eps": 0.0078125,
+          "rho_min_dn": 0.0078125,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 1,
+          "rho_eps": 0.0078125,
+          "rho_min_dn": 0.0078125,
+          "d": 128,
+          "n": 240
+        }
+      ],
+      "steering_control": [
+        {
+          "eff_rank": 0,
+          "rho_eps": 0.0,
+          "rho_min_dn": 0.0,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 0,
+          "rho_eps": 0.0,
+          "rho_min_dn": 0.0,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 0,
+          "rho_eps": 0.0,
+          "rho_min_dn": 0.0,
+          "d": 128,
+          "n": 560
+        }
+      ],
+      "ft_safety": [
+        {
+          "eff_rank": 55,
+          "rho_eps": 0.4296875,
+          "rho_min_dn": 0.4296875,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 9,
+          "rho_eps": 0.0703125,
+          "rho_min_dn": 0.0703125,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 2,
+          "rho_eps": 0.015625,
+          "rho_min_dn": 0.015625,
+          "d": 128,
+          "n": 240
+        }
+      ],
+      "ft_control": [
+        {
+          "eff_rank": 77,
+          "rho_eps": 0.6015625,
+          "rho_min_dn": 0.6015625,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 43,
+          "rho_eps": 0.3359375,
+          "rho_min_dn": 0.3359375,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 4,
+          "rho_eps": 0.03125,
+          "rho_min_dn": 0.03125,
+          "d": 128,
+          "n": 560
+        }
+      ],
+      "distributed_safety": [
+        {
+          "eff_rank": 70,
+          "rho_eps": 0.546875,
+          "rho_min_dn": 0.546875,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 62,
+          "rho_eps": 0.484375,
+          "rho_min_dn": 0.484375,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 21,
+          "rho_eps": 0.1640625,
+          "rho_min_dn": 0.1640625,
+          "d": 128,
+          "n": 240
+        }
+      ],
+      "distributed_control": [
+        {
+          "eff_rank": 59,
+          "rho_eps": 0.4609375,
+          "rho_min_dn": 0.4609375,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 66,
+          "rho_eps": 0.515625,
+          "rho_min_dn": 0.515625,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 19,
+          "rho_eps": 0.1484375,
+          "rho_min_dn": 0.1484375,
+          "d": 128,
+          "n": 560
+        }
+      ]
+    },
+    {
+      "seed": 2,
+      "ft_safety_compliance": 0.9375000596046448,
+      "dist_safety_compliance": 0.7166666984558105,
+      "steering_safety": [
+        {
+          "eff_rank": 1,
+          "rho_eps": 0.0078125,
+          "rho_min_dn": 0.0078125,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 1,
+          "rho_eps": 0.0078125,
+          "rho_min_dn": 0.0078125,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 1,
+          "rho_eps": 0.0078125,
+          "rho_min_dn": 0.0078125,
+          "d": 128,
+          "n": 240
+        }
+      ],
+      "steering_control": [
+        {
+          "eff_rank": 0,
+          "rho_eps": 0.0,
+          "rho_min_dn": 0.0,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 0,
+          "rho_eps": 0.0,
+          "rho_min_dn": 0.0,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 0,
+          "rho_eps": 0.0,
+          "rho_min_dn": 0.0,
+          "d": 128,
+          "n": 560
+        }
+      ],
+      "ft_safety": [
+        {
+          "eff_rank": 55,
+          "rho_eps": 0.4296875,
+          "rho_min_dn": 0.4296875,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 14,
+          "rho_eps": 0.109375,
+          "rho_min_dn": 0.109375,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 2,
+          "rho_eps": 0.015625,
+          "rho_min_dn": 0.015625,
+          "d": 128,
+          "n": 240
+        }
+      ],
+      "ft_control": [
+        {
+          "eff_rank": 77,
+          "rho_eps": 0.6015625,
+          "rho_min_dn": 0.6015625,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 44,
+          "rho_eps": 0.34375,
+          "rho_min_dn": 0.34375,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 4,
+          "rho_eps": 0.03125,
+          "rho_min_dn": 0.03125,
+          "d": 128,
+          "n": 560
+        }
+      ],
+      "distributed_safety": [
+        {
+          "eff_rank": 69,
+          "rho_eps": 0.5390625,
+          "rho_min_dn": 0.5390625,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 66,
+          "rho_eps": 0.515625,
+          "rho_min_dn": 0.515625,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 23,
+          "rho_eps": 0.1796875,
+          "rho_min_dn": 0.1796875,
+          "d": 128,
+          "n": 240
+        }
+      ],
+      "distributed_control": [
+        {
+          "eff_rank": 58,
+          "rho_eps": 0.453125,
+          "rho_min_dn": 0.453125,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 69,
+          "rho_eps": 0.5390625,
+          "rho_min_dn": 0.5390625,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 21,
+          "rho_eps": 0.1640625,
+          "rho_min_dn": 0.1640625,
+          "d": 128,
+          "n": 560
+        }
+      ]
+    },
+    {
+      "seed": 3,
+      "ft_safety_compliance": 0.9625000357627869,
+      "dist_safety_compliance": 0.6291667222976685,
+      "steering_safety": [
+        {
+          "eff_rank": 1,
+          "rho_eps": 0.0078125,
+          "rho_min_dn": 0.0078125,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 1,
+          "rho_eps": 0.0078125,
+          "rho_min_dn": 0.0078125,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 1,
+          "rho_eps": 0.0078125,
+          "rho_min_dn": 0.0078125,
+          "d": 128,
+          "n": 240
+        }
+      ],
+      "steering_control": [
+        {
+          "eff_rank": 0,
+          "rho_eps": 0.0,
+          "rho_min_dn": 0.0,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 0,
+          "rho_eps": 0.0,
+          "rho_min_dn": 0.0,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 0,
+          "rho_eps": 0.0,
+          "rho_min_dn": 0.0,
+          "d": 128,
+          "n": 560
+        }
+      ],
+      "ft_safety": [
+        {
+          "eff_rank": 57,
+          "rho_eps": 0.4453125,
+          "rho_min_dn": 0.4453125,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 10,
+          "rho_eps": 0.078125,
+          "rho_min_dn": 0.078125,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 2,
+          "rho_eps": 0.015625,
+          "rho_min_dn": 0.015625,
+          "d": 128,
+          "n": 240
+        }
+      ],
+      "ft_control": [
+        {
+          "eff_rank": 79,
+          "rho_eps": 0.6171875,
+          "rho_min_dn": 0.6171875,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 38,
+          "rho_eps": 0.296875,
+          "rho_min_dn": 0.296875,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 3,
+          "rho_eps": 0.0234375,
+          "rho_min_dn": 0.0234375,
+          "d": 128,
+          "n": 560
+        }
+      ],
+      "distributed_safety": [
+        {
+          "eff_rank": 69,
+          "rho_eps": 0.5390625,
+          "rho_min_dn": 0.5390625,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 61,
+          "rho_eps": 0.4765625,
+          "rho_min_dn": 0.4765625,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 21,
+          "rho_eps": 0.1640625,
+          "rho_min_dn": 0.1640625,
+          "d": 128,
+          "n": 240
+        }
+      ],
+      "distributed_control": [
+        {
+          "eff_rank": 64,
+          "rho_eps": 0.5,
+          "rho_min_dn": 0.5,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 65,
+          "rho_eps": 0.5078125,
+          "rho_min_dn": 0.5078125,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 22,
+          "rho_eps": 0.171875,
+          "rho_min_dn": 0.171875,
+          "d": 128,
+          "n": 560
+        }
+      ]
+    },
+    {
+      "seed": 4,
+      "ft_safety_compliance": 0.9458333849906921,
+      "dist_safety_compliance": 0.6541666984558105,
+      "steering_safety": [
+        {
+          "eff_rank": 1,
+          "rho_eps": 0.0078125,
+          "rho_min_dn": 0.0078125,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 1,
+          "rho_eps": 0.0078125,
+          "rho_min_dn": 0.0078125,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 1,
+          "rho_eps": 0.0078125,
+          "rho_min_dn": 0.0078125,
+          "d": 128,
+          "n": 240
+        }
+      ],
+      "steering_control": [
+        {
+          "eff_rank": 0,
+          "rho_eps": 0.0,
+          "rho_min_dn": 0.0,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 0,
+          "rho_eps": 0.0,
+          "rho_min_dn": 0.0,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 0,
+          "rho_eps": 0.0,
+          "rho_min_dn": 0.0,
+          "d": 128,
+          "n": 560
+        }
+      ],
+      "ft_safety": [
+        {
+          "eff_rank": 52,
+          "rho_eps": 0.40625,
+          "rho_min_dn": 0.40625,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 8,
+          "rho_eps": 0.0625,
+          "rho_min_dn": 0.0625,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 2,
+          "rho_eps": 0.015625,
+          "rho_min_dn": 0.015625,
+          "d": 128,
+          "n": 240
+        }
+      ],
+      "ft_control": [
+        {
+          "eff_rank": 77,
+          "rho_eps": 0.6015625,
+          "rho_min_dn": 0.6015625,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 30,
+          "rho_eps": 0.234375,
+          "rho_min_dn": 0.234375,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 4,
+          "rho_eps": 0.03125,
+          "rho_min_dn": 0.03125,
+          "d": 128,
+          "n": 560
+        }
+      ],
+      "distributed_safety": [
+        {
+          "eff_rank": 68,
+          "rho_eps": 0.53125,
+          "rho_min_dn": 0.53125,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 61,
+          "rho_eps": 0.4765625,
+          "rho_min_dn": 0.4765625,
+          "d": 128,
+          "n": 240
+        },
+        {
+          "eff_rank": 22,
+          "rho_eps": 0.171875,
+          "rho_min_dn": 0.171875,
+          "d": 128,
+          "n": 240
+        }
+      ],
+      "distributed_control": [
+        {
+          "eff_rank": 62,
+          "rho_eps": 0.484375,
+          "rho_min_dn": 0.484375,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 65,
+          "rho_eps": 0.5078125,
+          "rho_min_dn": 0.5078125,
+          "d": 128,
+          "n": 560
+        },
+        {
+          "eff_rank": 23,
+          "rho_eps": 0.1796875,
+          "rho_min_dn": 0.1796875,
+          "d": 128,
+          "n": 560
+        }
+      ]
+    }
+  ]
+}
