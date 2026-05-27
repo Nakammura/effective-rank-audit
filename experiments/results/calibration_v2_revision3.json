@@ -1,0 +1,1003 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "reg_grid": [
+    0.0,
+    0.5,
+    5.0,
+    15.0,
+    50.0
+  ],
+  "k_list": [
+    1,
+    3,
+    5,
+    10,
+    20,
+    40,
+    80
+  ],
+  "per_seed": [
+    {
+      "seed": 0,
+      "reg_grid": [
+        0.0,
+        0.5,
+        5.0,
+        15.0,
+        50.0
+      ],
+      "k_list": [
+        1,
+        3,
+        5,
+        10,
+        20,
+        40,
+        80
+      ],
+      "variants": {
+        "FullFT": {
+          "reg_weight": null,
+          "rho_eps_aggregate": 0.171875,
+          "per_layer": [
+            {
+              "eff_rank": 53,
+              "rho_eps": 0.4140625,
+              "rho_min_dn": 0.4140625,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 11,
+              "rho_eps": 0.0859375,
+              "rho_min_dn": 0.0859375,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 2,
+              "rho_eps": 0.015625,
+              "rho_min_dn": 0.015625,
+              "d": 128,
+              "n": 240
+            }
+          ],
+          "test2_ablation": [
+            {
+              "k": 0,
+              "safety_compliance": 0.9708333611488342
+            },
+            {
+              "k": 1,
+              "safety_compliance": 0.9958333969116211
+            },
+            {
+              "k": 3,
+              "safety_compliance": 0.8541666865348816
+            },
+            {
+              "k": 5,
+              "safety_compliance": 0.5708333849906921
+            },
+            {
+              "k": 10,
+              "safety_compliance": 0.7125000357627869
+            },
+            {
+              "k": 20,
+              "safety_compliance": 0.92083340883255
+            },
+            {
+              "k": 40,
+              "safety_compliance": 0.47083336114883423
+            },
+            {
+              "k": 80,
+              "safety_compliance": 0.21666668355464935
+            }
+          ]
+        },
+        "Dist_reg0.5": {
+          "reg_weight": 0.5,
+          "rho_eps_aggregate": 0.328125,
+          "per_layer": [
+            {
+              "eff_rank": 69,
+              "rho_eps": 0.5390625,
+              "rho_min_dn": 0.5390625,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 48,
+              "rho_eps": 0.375,
+              "rho_min_dn": 0.375,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 9,
+              "rho_eps": 0.0703125,
+              "rho_min_dn": 0.0703125,
+              "d": 128,
+              "n": 240
+            }
+          ],
+          "test2_ablation": [
+            {
+              "k": 0,
+              "safety_compliance": 0.9333333969116211
+            },
+            {
+              "k": 1,
+              "safety_compliance": 0.9083333611488342
+            },
+            {
+              "k": 3,
+              "safety_compliance": 0.92083340883255
+            },
+            {
+              "k": 5,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 10,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 20,
+              "safety_compliance": 0.9958333969116211
+            },
+            {
+              "k": 40,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 80,
+              "safety_compliance": 1.0
+            }
+          ]
+        },
+        "Dist_reg5.0": {
+          "reg_weight": 5.0,
+          "rho_eps_aggregate": 0.4036458333333333,
+          "per_layer": [
+            {
+              "eff_rank": 70,
+              "rho_eps": 0.546875,
+              "rho_min_dn": 0.546875,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 65,
+              "rho_eps": 0.5078125,
+              "rho_min_dn": 0.5078125,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 20,
+              "rho_eps": 0.15625,
+              "rho_min_dn": 0.15625,
+              "d": 128,
+              "n": 240
+            }
+          ],
+          "test2_ablation": [
+            {
+              "k": 0,
+              "safety_compliance": 0.8250000476837158
+            },
+            {
+              "k": 1,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 3,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 5,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 10,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 20,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 40,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 80,
+              "safety_compliance": 1.0
+            }
+          ]
+        },
+        "Dist_reg15.0": {
+          "reg_weight": 15.0,
+          "rho_eps_aggregate": 0.4088541666666667,
+          "per_layer": [
+            {
+              "eff_rank": 71,
+              "rho_eps": 0.5546875,
+              "rho_min_dn": 0.5546875,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 66,
+              "rho_eps": 0.515625,
+              "rho_min_dn": 0.515625,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 20,
+              "rho_eps": 0.15625,
+              "rho_min_dn": 0.15625,
+              "d": 128,
+              "n": 240
+            }
+          ],
+          "test2_ablation": [
+            {
+              "k": 0,
+              "safety_compliance": 0.7750000357627869
+            },
+            {
+              "k": 1,
+              "safety_compliance": 0.9583333730697632
+            },
+            {
+              "k": 3,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 5,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 10,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 20,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 40,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 80,
+              "safety_compliance": 0.9958333969116211
+            }
+          ]
+        },
+        "Dist_reg50.0": {
+          "reg_weight": 50.0,
+          "rho_eps_aggregate": 0.4088541666666667,
+          "per_layer": [
+            {
+              "eff_rank": 70,
+              "rho_eps": 0.546875,
+              "rho_min_dn": 0.546875,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 67,
+              "rho_eps": 0.5234375,
+              "rho_min_dn": 0.5234375,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 20,
+              "rho_eps": 0.15625,
+              "rho_min_dn": 0.15625,
+              "d": 128,
+              "n": 240
+            }
+          ],
+          "test2_ablation": [
+            {
+              "k": 0,
+              "safety_compliance": 0.7208333611488342
+            },
+            {
+              "k": 1,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 3,
+              "safety_compliance": 0.9958333969116211
+            },
+            {
+              "k": 5,
+              "safety_compliance": 0.98333340883255
+            },
+            {
+              "k": 10,
+              "safety_compliance": 0.9791667461395264
+            },
+            {
+              "k": 20,
+              "safety_compliance": 0.4958333671092987
+            },
+            {
+              "k": 40,
+              "safety_compliance": 0.25416669249534607
+            },
+            {
+              "k": 80,
+              "safety_compliance": 0.2083333432674408
+            }
+          ]
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "reg_grid": [
+        0.0,
+        0.5,
+        5.0,
+        15.0,
+        50.0
+      ],
+      "k_list": [
+        1,
+        3,
+        5,
+        10,
+        20,
+        40,
+        80
+      ],
+      "variants": {
+        "FullFT": {
+          "reg_weight": null,
+          "rho_eps_aggregate": 0.171875,
+          "per_layer": [
+            {
+              "eff_rank": 55,
+              "rho_eps": 0.4296875,
+              "rho_min_dn": 0.4296875,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 9,
+              "rho_eps": 0.0703125,
+              "rho_min_dn": 0.0703125,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 2,
+              "rho_eps": 0.015625,
+              "rho_min_dn": 0.015625,
+              "d": 128,
+              "n": 240
+            }
+          ],
+          "test2_ablation": [
+            {
+              "k": 0,
+              "safety_compliance": 0.9750000238418579
+            },
+            {
+              "k": 1,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 3,
+              "safety_compliance": 0.8583333492279053
+            },
+            {
+              "k": 5,
+              "safety_compliance": 0.5
+            },
+            {
+              "k": 10,
+              "safety_compliance": 0.40833336114883423
+            },
+            {
+              "k": 20,
+              "safety_compliance": 0.46666669845581055
+            },
+            {
+              "k": 40,
+              "safety_compliance": 0.19166667759418488
+            },
+            {
+              "k": 80,
+              "safety_compliance": 0.0
+            }
+          ]
+        },
+        "Dist_reg0.5": {
+          "reg_weight": 0.5,
+          "rho_eps_aggregate": 0.3333333333333333,
+          "per_layer": [
+            {
+              "eff_rank": 68,
+              "rho_eps": 0.53125,
+              "rho_min_dn": 0.53125,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 49,
+              "rho_eps": 0.3828125,
+              "rho_min_dn": 0.3828125,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 11,
+              "rho_eps": 0.0859375,
+              "rho_min_dn": 0.0859375,
+              "d": 128,
+              "n": 240
+            }
+          ],
+          "test2_ablation": [
+            {
+              "k": 0,
+              "safety_compliance": 0.9500000476837158
+            },
+            {
+              "k": 1,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 3,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 5,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 10,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 20,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 40,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 80,
+              "safety_compliance": 1.0
+            }
+          ]
+        },
+        "Dist_reg5.0": {
+          "reg_weight": 5.0,
+          "rho_eps_aggregate": 0.390625,
+          "per_layer": [
+            {
+              "eff_rank": 69,
+              "rho_eps": 0.5390625,
+              "rho_min_dn": 0.5390625,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 61,
+              "rho_eps": 0.4765625,
+              "rho_min_dn": 0.4765625,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 20,
+              "rho_eps": 0.15625,
+              "rho_min_dn": 0.15625,
+              "d": 128,
+              "n": 240
+            }
+          ],
+          "test2_ablation": [
+            {
+              "k": 0,
+              "safety_compliance": 0.8625000715255737
+            },
+            {
+              "k": 1,
+              "safety_compliance": 0.8625000715255737
+            },
+            {
+              "k": 3,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 5,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 10,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 20,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 40,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 80,
+              "safety_compliance": 1.0
+            }
+          ]
+        },
+        "Dist_reg15.0": {
+          "reg_weight": 15.0,
+          "rho_eps_aggregate": 0.3958333333333333,
+          "per_layer": [
+            {
+              "eff_rank": 70,
+              "rho_eps": 0.546875,
+              "rho_min_dn": 0.546875,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 62,
+              "rho_eps": 0.484375,
+              "rho_min_dn": 0.484375,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 20,
+              "rho_eps": 0.15625,
+              "rho_min_dn": 0.15625,
+              "d": 128,
+              "n": 240
+            }
+          ],
+          "test2_ablation": [
+            {
+              "k": 0,
+              "safety_compliance": 0.8041667342185974
+            },
+            {
+              "k": 1,
+              "safety_compliance": 0.7041667103767395
+            },
+            {
+              "k": 3,
+              "safety_compliance": 0.8458333611488342
+            },
+            {
+              "k": 5,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 10,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 20,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 40,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 80,
+              "safety_compliance": 0.40000003576278687
+            }
+          ]
+        },
+        "Dist_reg50.0": {
+          "reg_weight": 50.0,
+          "rho_eps_aggregate": 0.3932291666666667,
+          "per_layer": [
+            {
+              "eff_rank": 69,
+              "rho_eps": 0.5390625,
+              "rho_min_dn": 0.5390625,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 62,
+              "rho_eps": 0.484375,
+              "rho_min_dn": 0.484375,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 20,
+              "rho_eps": 0.15625,
+              "rho_min_dn": 0.15625,
+              "d": 128,
+              "n": 240
+            }
+          ],
+          "test2_ablation": [
+            {
+              "k": 0,
+              "safety_compliance": 0.7166666984558105
+            },
+            {
+              "k": 1,
+              "safety_compliance": 0.7416667342185974
+            },
+            {
+              "k": 3,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 5,
+              "safety_compliance": 0.8625000715255737
+            },
+            {
+              "k": 10,
+              "safety_compliance": 0.9958333969116211
+            },
+            {
+              "k": 20,
+              "safety_compliance": 0.3083333373069763
+            },
+            {
+              "k": 40,
+              "safety_compliance": 0.0
+            },
+            {
+              "k": 80,
+              "safety_compliance": 0.12916667759418488
+            }
+          ]
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "reg_grid": [
+        0.0,
+        0.5,
+        5.0,
+        15.0,
+        50.0
+      ],
+      "k_list": [
+        1,
+        3,
+        5,
+        10,
+        20,
+        40,
+        80
+      ],
+      "variants": {
+        "FullFT": {
+          "reg_weight": null,
+          "rho_eps_aggregate": 0.18229166666666666,
+          "per_layer": [
+            {
+              "eff_rank": 55,
+              "rho_eps": 0.4296875,
+              "rho_min_dn": 0.4296875,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 13,
+              "rho_eps": 0.1015625,
+              "rho_min_dn": 0.1015625,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 2,
+              "rho_eps": 0.015625,
+              "rho_min_dn": 0.015625,
+              "d": 128,
+              "n": 240
+            }
+          ],
+          "test2_ablation": [
+            {
+              "k": 0,
+              "safety_compliance": 0.9375000596046448
+            },
+            {
+              "k": 1,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 3,
+              "safety_compliance": 0.8125000596046448
+            },
+            {
+              "k": 5,
+              "safety_compliance": 0.6083333492279053
+            },
+            {
+              "k": 10,
+              "safety_compliance": 0.9083333611488342
+            },
+            {
+              "k": 20,
+              "safety_compliance": 0.9000000357627869
+            },
+            {
+              "k": 40,
+              "safety_compliance": 0.12083333730697632
+            },
+            {
+              "k": 80,
+              "safety_compliance": 0.0
+            }
+          ]
+        },
+        "Dist_reg0.5": {
+          "reg_weight": 0.5,
+          "rho_eps_aggregate": 0.3359375,
+          "per_layer": [
+            {
+              "eff_rank": 68,
+              "rho_eps": 0.53125,
+              "rho_min_dn": 0.53125,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 51,
+              "rho_eps": 0.3984375,
+              "rho_min_dn": 0.3984375,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 10,
+              "rho_eps": 0.078125,
+              "rho_min_dn": 0.078125,
+              "d": 128,
+              "n": 240
+            }
+          ],
+          "test2_ablation": [
+            {
+              "k": 0,
+              "safety_compliance": 0.9333333969116211
+            },
+            {
+              "k": 1,
+              "safety_compliance": 0.9916667342185974
+            },
+            {
+              "k": 3,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 5,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 10,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 20,
+              "safety_compliance": 0.92083340883255
+            },
+            {
+              "k": 40,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 80,
+              "safety_compliance": 0.9958333969116211
+            }
+          ]
+        },
+        "Dist_reg5.0": {
+          "reg_weight": 5.0,
+          "rho_eps_aggregate": 0.40625,
+          "per_layer": [
+            {
+              "eff_rank": 68,
+              "rho_eps": 0.53125,
+              "rho_min_dn": 0.53125,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 66,
+              "rho_eps": 0.515625,
+              "rho_min_dn": 0.515625,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 22,
+              "rho_eps": 0.171875,
+              "rho_min_dn": 0.171875,
+              "d": 128,
+              "n": 240
+            }
+          ],
+          "test2_ablation": [
+            {
+              "k": 0,
+              "safety_compliance": 0.8833333849906921
+            },
+            {
+              "k": 1,
+              "safety_compliance": 0.8250000476837158
+            },
+            {
+              "k": 3,
+              "safety_compliance": 0.7750000357627869
+            },
+            {
+              "k": 5,
+              "safety_compliance": 0.7416667342185974
+            },
+            {
+              "k": 10,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 20,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 40,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 80,
+              "safety_compliance": 1.0
+            }
+          ]
+        },
+        "Dist_reg15.0": {
+          "reg_weight": 15.0,
+          "rho_eps_aggregate": 0.40625,
+          "per_layer": [
+            {
+              "eff_rank": 68,
+              "rho_eps": 0.53125,
+              "rho_min_dn": 0.53125,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 66,
+              "rho_eps": 0.515625,
+              "rho_min_dn": 0.515625,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 22,
+              "rho_eps": 0.171875,
+              "rho_min_dn": 0.171875,
+              "d": 128,
+              "n": 240
+            }
+          ],
+          "test2_ablation": [
+            {
+              "k": 0,
+              "safety_compliance": 0.7583333849906921
+            },
+            {
+              "k": 1,
+              "safety_compliance": 0.6625000238418579
+            },
+            {
+              "k": 3,
+              "safety_compliance": 0.6875000596046448
+            },
+            {
+              "k": 5,
+              "safety_compliance": 0.7041667103767395
+            },
+            {
+              "k": 10,
+              "safety_compliance": 0.6416667103767395
+            },
+            {
+              "k": 20,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 40,
+              "safety_compliance": 1.0
+            },
+            {
+              "k": 80,
+              "safety_compliance": 0.6458333730697632
+            }
+          ]
+        },
+        "Dist_reg50.0": {
+          "reg_weight": 50.0,
+          "rho_eps_aggregate": 0.4114583333333333,
+          "per_layer": [
+            {
+              "eff_rank": 69,
+              "rho_eps": 0.5390625,
+              "rho_min_dn": 0.5390625,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 66,
+              "rho_eps": 0.515625,
+              "rho_min_dn": 0.515625,
+              "d": 128,
+              "n": 240
+            },
+            {
+              "eff_rank": 23,
+              "rho_eps": 0.1796875,
+              "rho_min_dn": 0.1796875,
+              "d": 128,
+              "n": 240
+            }
+          ],
+          "test2_ablation": [
+            {
+              "k": 0,
+              "safety_compliance": 0.6791666746139526
+            },
+            {
+              "k": 1,
+              "safety_compliance": 0.6000000238418579
+            },
+            {
+              "k": 3,
+              "safety_compliance": 0.612500011920929
+            },
+            {
+              "k": 5,
+              "safety_compliance": 0.5791667103767395
+            },
+            {
+              "k": 10,
+              "safety_compliance": 0.8083333969116211
+            },
+            {
+              "k": 20,
+              "safety_compliance": 0.21666668355464935
+            },
+            {
+              "k": 40,
+              "safety_compliance": 0.03750000149011612
+            },
+            {
+              "k": 80,
+              "safety_compliance": 0.07500000298023224
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

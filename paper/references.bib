@@ -1,0 +1,389 @@
+% =========================================================================
+% Scalable oversight and capability barrier
+% =========================================================================
+
+@article{amodei2016concrete,
+  author  = {Amodei, Dario and Olah, Chris and Steinhardt, Jacob and
+             Christiano, Paul and Schulman, John and Man{\'e}, Dan},
+  title   = {Concrete Problems in {AI} Safety},
+  journal = {arXiv preprint arXiv:1606.06565},
+  year    = {2016}
+}
+
+@article{leike2018scalable,
+  author  = {Leike, Jan and Krueger, David and Everitt, Tom and
+             Martic, Miljan and Maini, Vishal and Legg, Shane},
+  title   = {Scalable Agent Alignment via Reward Modeling:
+             A Research Direction},
+  journal = {arXiv preprint arXiv:1811.07871},
+  year    = {2018}
+}
+
+@article{irving2018ai,
+  author  = {Irving, Geoffrey and Christiano, Paul and Amodei, Dario},
+  title   = {{AI} Safety via Debate},
+  journal = {arXiv preprint arXiv:1805.00899},
+  year    = {2018}
+}
+
+% =========================================================================
+% Tier 1: Core empirical evidence (alignment fragility)
+% =========================================================================
+
+@inproceedings{arditi2024refusal,
+  author    = {Arditi, Andy and Obeso, Oscar and Syed, Aaquib and
+               Paleka, Daniel and Panickssery, Nina and
+               Gurnee, Wes and Nanda, Neel},
+  title     = {Refusal in Language Models Is Mediated by a Single Direction},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {37},
+  year      = {2024}
+}
+
+@inproceedings{qi2024safety,
+  author    = {Qi, Xiangyu and Panda, Ashwinee and Lyu, Kaifeng and
+               Ma, Xiao and Roy, Subhrajit and Beirami, Ahmad and
+               Mittal, Prateek and Henderson, Peter},
+  title     = {Safety Alignment Should Be Made More Than Just a Few Tokens Deep},
+  booktitle = {International Conference on Learning Representations},
+  year      = {2025},
+  note      = {Outstanding Paper Award}
+}
+
+@inproceedings{lee2024mechanistic,
+  author    = {Lee, Andrew and Bai, Xiaoyan and Pres, Itamar and
+               Wattenberg, Martin and Kummerfeld, Jonathan K. and
+               Mihalcea, Rada},
+  title     = {A Mechanistic Understanding of Alignment Algorithms:
+               A Case Study on {DPO} and Toxicity},
+  booktitle = {International Conference on Machine Learning},
+  year      = {2024}
+}
+
+@inproceedings{wolf2024fundamental,
+  author    = {Wolf, Yotam and Wies, Noam and Avnery, Oshri and
+               Levine, Yoav and Shashua, Amnon},
+  title     = {Fundamental Limitations of Alignment in Large Language Models},
+  booktitle = {International Conference on Machine Learning},
+  year      = {2024}
+}
+
+@inproceedings{jain2024what,
+  author    = {Jain, Samyak and Lubana, Ekdeep Singh and
+               Oksuz, Kemal and Joy, Tom and Torr, Philip H.S. and
+               Sanyal, Amartya and Dokania, Puneet K.},
+  title     = {What Makes and Breaks Safety Fine-tuning? {A} Mechanistic Study},
+  booktitle = {Advances in Neural Information Processing Systems},
+  volume    = {37},
+  year      = {2024}
+}
+
+% =========================================================================
+% Tier 2: Additional empirical evidence
+% =========================================================================
+
+@inproceedings{qi2023finetuning,
+  author    = {Qi, Xiangyu and Zeng, Yi and Xie, Tinghao and Chen, Pin-Yu
+               and Jia, Ruoxi and Mittal, Prateek and Henderson, Peter},
+  title     = {Fine-Tuning Aligned Language Models Compromises Safety,
+               Even When Users Do Not Intend To},
+  booktitle = {International Conference on Learning Representations},
+  year      = {2024}
+}
+
+@article{lermen2023lora,
+  author  = {Lermen, Simon and Rogers-Smith, Charlie and Ladish, Jeffrey},
+  title   = {{LoRA} Fine-Tuning Efficiently Undoes Safety Training in
+             {L}lama 2-Chat 70{B}},
+  year    = {2023},
+  note    = {arXiv preprint arXiv:2310.20624}
+}
+
+@article{greenblatt2024alignment,
+  author  = {Greenblatt, Ryan and Denison, Carson and Wright, Benjamin and
+             Roger, Fabien and others},
+  title   = {Alignment Faking in Large Language Models},
+  year    = {2024},
+  note    = {arXiv preprint arXiv:2412.14093}
+}
+
+@article{hubinger2024sleeper,
+  author  = {Hubinger, Evan and Denison, Carson and Mu, Jesse and
+             Lambert, Mike and Tong, Meg and others},
+  title   = {Sleeper Agents: Training Deceptive {LLMs} That Persist
+             Through Safety Training},
+  year    = {2024},
+  note    = {arXiv preprint arXiv:2401.05566}
+}
+
+% =========================================================================
+% Alignment methods
+% =========================================================================
+
+@article{christiano2017,
+  author  = {Christiano, Paul F. and Leike, Jan and Brown, Tom and
+             Martic, Miljan and Legg, Shane and Amodei, Dario},
+  title   = {Deep Reinforcement Learning from Human Preferences},
+  journal = {Advances in Neural Information Processing Systems},
+  volume  = {30},
+  year    = {2017}
+}
+
+@article{ouyang2022,
+  author  = {Ouyang, Long and Wu, Jeffrey and Jiang, Xu and
+             Almeida, Diogo and Wainwright, Carroll and others},
+  title   = {Training Language Models to Follow Instructions
+             with Human Feedback},
+  journal = {Advances in Neural Information Processing Systems},
+  volume  = {35},
+  year    = {2022}
+}
+
+@article{bai2022,
+  author  = {Bai, Yuntao and Kadavath, Saurav and Kundu, Sandipan and
+             Askell, Amanda and Kernion, Jackson and others},
+  title   = {Constitutional {AI}: Harmlessness from {AI} Feedback},
+  year    = {2022},
+  note    = {arXiv preprint arXiv:2212.08073}
+}
+
+@article{rafailov2023dpo,
+  author  = {Rafailov, Rafael and Sharma, Archit and Mitchell, Eric and
+             Ermon, Stefano and Manning, Christopher D. and Finn, Chelsea},
+  title   = {Direct Preference Optimization: Your Language Model Is
+             Secretly a Reward Model},
+  journal = {Advances in Neural Information Processing Systems},
+  volume  = {36},
+  year    = {2023}
+}
+
+% =========================================================================
+% Representation engineering and interpretability
+% =========================================================================
+
+@article{zou2023representation,
+  author  = {Zou, Andy and Phan, Long and Chen, Sarah and
+             Campbell, James and Guo, Phillip and others},
+  title   = {Representation Engineering: A Top-Down Approach to
+             {AI} Transparency},
+  year    = {2023},
+  note    = {arXiv preprint arXiv:2310.01405}
+}
+
+% =========================================================================
+% Alignment theory and perspectives
+% =========================================================================
+
+@inproceedings{ngo2024alignment,
+  author    = {Ngo, Richard and Chan, Lawrence and Mindermann, S\"{o}ren},
+  title     = {The Alignment Problem from a Deep Learning Perspective},
+  booktitle = {International Conference on Learning Representations},
+  year      = {2024}
+}
+
+% =========================================================================
+% Elasticity
+% =========================================================================
+
+@inproceedings{ji2025elasticity,
+  author    = {Ji, Jiaming and Wang, Kaile and Qiu, Tianyi and
+               Chen, Boyuan and Zhou, Jiayi and Li, Changye and
+               Lou, Hantao and Dai, Juntao and Liu, Yunhuai and
+               Yang, Yaodong},
+  title     = {Language Models Resist Alignment: Evidence From Data Compression},
+  booktitle = {Proceedings of the 63rd Annual Meeting of the Association
+               for Computational Linguistics},
+  year      = {2025},
+  note      = {Best Paper Award}
+}
+
+% =========================================================================
+% Emergent Misalignment
+% =========================================================================
+
+@article{betley2025emergent,
+  author  = {Betley, Jan and Warncke, Niels and Sztyber-Betley, Anna and
+             Tan, Daniel and Bao, Xuchan and Soto, Martin and
+             Srivastava, Megha and Labenz, Nathan and Evans, Owain},
+  title   = {Training Large Language Models on Narrow Tasks Can Lead
+             to Broad Misalignment},
+  journal = {Nature},
+  volume  = {649},
+  pages   = {584--589},
+  year    = {2026}
+}
+
+% =========================================================================
+% Concept cones
+% =========================================================================
+
+@inproceedings{wollschlager2025,
+  author    = {Wollschl\"{a}ger, Tom and Elstner, Jannes and
+               Geisler, Simon and Cohen-Addad, Vincent and
+               G\"{u}nnemann, Stephan and Gasteiger, Johannes},
+  title     = {The Geometry of Refusal in Large Language Models:
+               Concept Cones and Representational Independence},
+  booktitle = {International Conference on Machine Learning},
+  year      = {2025}
+}
+
+% =========================================================================
+% Activation steering (for discussion of tonic vs RepEng)
+% =========================================================================
+
+@article{turner2023steering,
+  author  = {Turner, Alexander Matt and Thiergart, Lisa and
+             Leech, Gavin and Udell, David and Vazquez, Juan J. and
+             Mini, Ulisse and MacDiarmid, Monte},
+  title   = {Activation Addition: Steering Language Models Without
+             Optimization},
+  year    = {2023},
+  note    = {arXiv preprint arXiv:2308.10248}
+}
+
+% =========================================================================
+% Safety classifiers
+% =========================================================================
+
+@article{inan2023llama,
+  author  = {Inan, Hakan and Upasani, Kartikeya and Chi, Jianfeng and
+             Rungta, Rashi and Iyer, Krithika and Mao, Yuning and
+             Tontchev, Michael and Hu, Qing and Fuller, Brian and
+             Testuggine, Davide and Khabsa, Madian},
+  title   = {Llama Guard: {LLM}-based Input-Output Safeguard for
+             Human-{AI} Conversations},
+  year    = {2023},
+  note    = {arXiv preprint arXiv:2312.06674}
+}
+
+% =========================================================================
+% Linear Representation Hypothesis and feature geometry
+% =========================================================================
+
+@inproceedings{park2024linear,
+  author    = {Park, Kiho and Choe, Yo Joong and Veitch, Victor},
+  title     = {The Linear Representation Hypothesis and the Geometry
+               of Large Language Models},
+  booktitle = {International Conference on Machine Learning},
+  year      = {2024},
+  note      = {arXiv preprint arXiv:2311.03658}
+}
+
+@inproceedings{mikolov2013linguistic,
+  author    = {Mikolov, Tomas and Yih, Wen-tau and Zweig, Geoffrey},
+  title     = {Linguistic Regularities in Continuous Space Word
+               Representations},
+  booktitle = {Proceedings of NAACL-HLT},
+  year      = {2013}
+}
+
+@article{marks2023geometry,
+  author  = {Marks, Samuel and Tegmark, Max},
+  title   = {The Geometry of Truth: Emergent Linear Structure in
+             Large Language Model Representations of True/False
+             Datasets},
+  year    = {2023},
+  note    = {arXiv preprint arXiv:2310.06824}
+}
+
+@inproceedings{hernandez2024linearity,
+  author    = {Hernandez, Evan and Sen Sharma, Arnab and
+               Haklay, Tal and Meng, Kevin and Wattenberg, Martin and
+               Andreas, Jacob and Belinkov, Yonatan and Bau, David},
+  title     = {Linearity of Relation Decoding in Transformer Language Models},
+  booktitle = {International Conference on Learning Representations},
+  year      = {2024},
+  note      = {arXiv preprint arXiv:2308.09124}
+}
+
+% =========================================================================
+% Sparse autoencoders / circuit-level interpretability
+% =========================================================================
+
+@misc{templeton2024scaling,
+  author       = {Templeton, Adly and Conerly, Tom and Marcus, Jonathan and
+                  others},
+  title        = {Scaling Monosemanticity: Extracting Interpretable
+                  Features from {Claude 3 Sonnet}},
+  year         = {2024},
+  howpublished = {Transformer Circuits Thread},
+  note         = {\url{https://transformer-circuits.pub/2024/scaling-monosemanticity/}}
+}
+
+@article{olah2020zoom,
+  author  = {Olah, Chris and Cammarata, Nick and Schubert, Ludwig and
+             Goh, Gabriel and Petrov, Michael and Carter, Shan},
+  title   = {Zoom In: An Introduction to Circuits},
+  journal = {Distill},
+  year    = {2020},
+  doi     = {10.23915/distill.00024.001}
+}
+
+% =========================================================================
+% Low-rank adaptation
+% =========================================================================
+
+@inproceedings{hu2022lora,
+  author    = {Hu, Edward J. and Shen, Yelong and Wallis, Phillip and
+               Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and
+               Wang, Lu and Chen, Weizhu},
+  title     = {Lo{RA}: Low-Rank Adaptation of Large Language Models},
+  booktitle = {International Conference on Learning Representations},
+  year      = {2022},
+  note      = {arXiv preprint arXiv:2106.09685}
+}
+
+% =========================================================================
+% Concept erasure
+% =========================================================================
+
+@inproceedings{belrose2023leace,
+  author    = {Belrose, Nora and Schneider-Joseph, David and
+               Ravfogel, Shauli and Cotterell, Ryan and Raff, Edward and
+               Biderman, Stella},
+  title     = {{LEACE}: Perfect Linear Concept Erasure in Closed Form},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2023},
+  note      = {arXiv preprint arXiv:2306.03819}
+}
+
+@inproceedings{ravfogel2020null,
+  author    = {Ravfogel, Shauli and Elazar, Yanai and Gonen, Hila and
+               Twiton, Michael and Goldberg, Yoav},
+  title     = {Null It Out: Guarding Protected Attributes by Iterative
+               Nullspace Projection},
+  booktitle = {Annual Meeting of the ACL},
+  year      = {2020}
+}
+
+% =========================================================================
+% Loss-landscape and mode connectivity
+% =========================================================================
+
+@inproceedings{garipov2018loss,
+  author    = {Garipov, Timur and Izmailov, Pavel and
+               Podoprikhin, Dmitrii and Vetrov, Dmitry P. and
+               Wilson, Andrew Gordon},
+  title     = {Loss Surfaces, Mode Connectivity, and Fast Ensembling
+               of {DNN}s},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2018},
+  note      = {arXiv preprint arXiv:1802.10026}
+}
+
+@inproceedings{frankle2020linear,
+  author    = {Frankle, Jonathan and Dziugaite, Gintare Karolina and
+               Roy, Daniel M. and Carbin, Michael},
+  title     = {Linear Mode Connectivity and the Lottery Ticket Hypothesis},
+  booktitle = {International Conference on Machine Learning},
+  year      = {2020},
+  note      = {arXiv preprint arXiv:1912.05671}
+}
+
+
+@book{stewart1990matrix,
+  author    = {Stewart, G. W. and Sun, Ji-guang},
+  title     = {Matrix Perturbation Theory},
+  publisher = {Academic Press},
+  year      = {1990}
+}
